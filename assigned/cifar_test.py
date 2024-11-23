@@ -66,8 +66,8 @@ def train_model(model, optimizer, criterion, dataloader, num_epochs, train_sched
         
         metrics_df.loc[len(metrics_df)] = {
             'Epoch': epoch + 1,
-            'TrainingLoss': epoch_loss,
-            'LearningRate': current_lr,
+            'TrainingLoss': round(epoch_loss,5),
+            'LearningRate': round(current_lr,5),
             'TrainingAccuracy': epoch_accuracy
         }
 
