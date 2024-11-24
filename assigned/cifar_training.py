@@ -285,7 +285,7 @@ if __name__ == '__main__':
     # parser.add_argument('--dataset', type=str, default='CIFAR100', help="This is dataset; MNIST, CIFAR10, CIFAR100")
     parser.add_argument('--batch_size', type=int, default=64, help="")
     parser.add_argument('--learning_rate', type=float, default='0.1', help="")
-    parser.add_argument('--num_epoch', type=int, default=2, help="")
+    parser.add_argument('--num_epoch', type=int, default=50, help="")
     parser.add_argument('--load_model', type=int, default=0, help="")
     parser.add_argument('--model', type=str, default='resnet18', help="")
 

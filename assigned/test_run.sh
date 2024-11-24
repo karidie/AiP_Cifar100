@@ -1,6 +1,6 @@
 #!/bin/bash
 
-models=("resnet" "resnet18")
+models=("resnet50" "resnet18")
 batch_sizes=(64 32)
 learning_rates=(0.001 0.01 0.1)
 epochs=(150 100 50)
